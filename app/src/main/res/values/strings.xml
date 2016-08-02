@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Sports News App</string>
+
+
+    <!-- Message when there there is no news data available. -->
+    <string name="no_news">No news available.</string>
+
+    <!-- Message when there is no internet connection. -->
+    <string name="no_internet">No internet connection.</string>
+
+    <string name="menu_refresh">Refresh</string>
+
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/swiperefresh"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        style="@style/parent_relative_style"
+        tools:context=".NewsActivity">
+
+        <ListView
+            android:id="@+id/list"
+            style="@style/list_view_style" />
+
+        <!-- Text to display when there is no data. -->
+        <TextView
+            android:id="@+id/empty_text"
+            style="@style/empty_text_style"
+            android:text="@string/no_news" />
+
+        <ProgressBar
+            android:id="@+id/loading_spinner"
+            style="@style/Widget.AppCompat.ProgressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+
+    </RelativeLayout>
+</android.support.v4.widget.SwipeRefreshLayout>
